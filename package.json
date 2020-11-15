@@ -15,7 +15,8 @@
     "eslint": "7.13.0",
     "eslint-loader": "4.0.2",
     "express-generator": "^4.16.1",
-    "prettier": "2.1.2"
+    "prettier": "2.1.2",
+    "typescript": "^4.0.5"
   },
   "dependencies": {}
 }
