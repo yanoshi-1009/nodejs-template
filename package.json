@@ -17,6 +17,6 @@
     "@cybozu/eslint-config": "13.0.0",
     "eslint": "7.26.0",
     "eslint-loader": "4.0.2",
-    "prettier": "2.2.1"
+    "prettier": "2.3.0"
   }
 }
