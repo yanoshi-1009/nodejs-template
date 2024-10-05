@@ -3,6 +3,6 @@ import cybozuEslintConfig from "@cybozu/eslint-config/flat/presets/node-prettier
 export default [
   ...cybozuEslintConfig,
   {
-    ignores: ["node_modules", "dist", "*.config.[m]js"]
+    ignores: ["node_modules", "dist", "*.config.js", "*.config.mjs"]
   }
 ];
