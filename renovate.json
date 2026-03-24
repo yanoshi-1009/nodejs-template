@@ -1,25 +1,34 @@
 {
   "extends": [
-    "config:base",
+    "config:recommended",
     ":automergeMinor",
     ":maintainLockFilesWeekly",
     ":skipStatusChecks"
   ],
   "timezone": "Asia/Tokyo",
   "schedule": "before 6am",
-  "labels": ["renovate"],
-  "assignees": ["yanoshi-1009"],
+  "labels": [
+    "renovate"
+  ],
+  "assignees": [
+    "yanoshi-1009"
+  ],
   "rangeStrategy": "bump",
   "lockFileMaintenance": {
     "automerge": true
   },
   "packageRules": [
     {
-      "matchPackagePatterns": ["@cybozu/eslint-config"],
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": [
+        "/@cybozu/eslint-config/"
+      ]
     },
     {
-      "matchPackageNames": ["node", "pnpm"],
+      "matchPackageNames": [
+        "node",
+        "pnpm"
+      ],
       "enabled": false
     }
   ]
