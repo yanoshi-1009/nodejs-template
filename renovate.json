@@ -7,28 +7,19 @@
   ],
   "timezone": "Asia/Tokyo",
   "schedule": "before 6am",
-  "labels": [
-    "renovate"
-  ],
-  "assignees": [
-    "yanoshi-1009"
-  ],
-  "rangeStrategy": "bump",
+  "labels": ["renovate"],
+  "assignees": ["yanoshi-1009"],
+  "rangeStrategy": "pin",
   "lockFileMaintenance": {
     "automerge": true
   },
   "packageRules": [
     {
-      "automerge": true,
-      "matchPackageNames": [
-        "/@cybozu/eslint-config/"
-      ]
+      "matchPackageNames": ["@cybozu/eslint-config", "typescript"],
+      "automerge": true
     },
     {
-      "matchPackageNames": [
-        "node",
-        "pnpm"
-      ],
+      "matchPackageNames": ["node", "pnpm"],
       "enabled": false
     }
   ]
