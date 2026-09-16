@@ -24,7 +24,7 @@
     }
   },
   "devDependencies": {
-    "@cybozu/eslint-config": "26.0.0",
+    "@cybozu/eslint-config": "26.0.1",
     "eslint": "9.39.5",
     "prettier": "3.9.6",
     "typescript": "7.0.2"
